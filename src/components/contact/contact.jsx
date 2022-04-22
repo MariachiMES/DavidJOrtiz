@@ -46,7 +46,7 @@ export default function Contact() {
             <h4>Phone/WhatsApp</h4>
             <h5>+1 210.265.7992</h5>
             <a
-              href="https://api.whatsapp.com/send?phone12102657992"
+              href="https://api.whatsapp.com/send?phone+2102657992"
               target="_blank"
             >
               Send A Message
@@ -69,10 +69,6 @@ export default function Contact() {
           </button>
           {submitted && <span>Thanks, I will reply ASAP!</span>}
         </form>
-      </div>
-
-      <div className="left">
-        <img src="assets/paperAirplanes.png" alt="" />
       </div>
       <div className="right">
         <br />
