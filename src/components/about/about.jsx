@@ -1,10 +1,50 @@
 import React from "react";
 import "./about.css";
-import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { aboutMeData, educationData, hobbiesData } from "../data";
+import AboutList from "../aboutList/aboutList";
+import { useState, useEffect } from "react";
+import { FaAward as awardIcon } from "react-icons/fa";
+import { FaUsers as userIcon } from "react-icons/fa";
+import { VscFolderLibrary as folderIcon } from "react-icons/vsc";
 
 export default function About() {
+  const [selected, setSelected] = useState("About Me");
+  const [data, setData] = useState([]);
+  const list = [
+    {
+      id: "About Me",
+      title: "About Me",
+      subtitle: "Nice To Meet You",
+      icon: awardIcon,
+    },
+    {
+      id: "Education",
+      title: "Education",
+      subtitle: "Texas State 2006",
+      icon: userIcon,
+    },
+    {
+      id: "Hobbies",
+      title: "Hobbies",
+      subtitle: "Artist/Musician",
+      icon: folderIcon,
+    },
+  ];
+
+  useEffect(() => {
+    switch (selected) {
+      case "About Me":
+        setData(aboutMeData);
+        break;
+      case "Education":
+        setData(educationData);
+        break;
+      case "Hobbies":
+        setData(hobbiesData);
+        break;
+    }
+  }, [selected]);
+
   return (
     <section id="about">
       <h5>Get To Know Me</h5>
@@ -21,12 +61,18 @@ export default function About() {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className="about__card">
+            {list.map((item) => (
+              <AboutList
+                title={item.title}
+                subtitle={item.subtitle}
+                icon={item.icon}
+                active={selected === item.id}
+                setSelected={setSelected}
+                id={item.id}
+              />
+            ))}
+
+            {/* <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
               <small>3200+ Worldwide</small>
@@ -35,21 +81,12 @@ export default function About() {
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>Stuff</small>
-            </article>
+            </article> */}
           </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            tempora, soluta aliquam pariatur reiciendis esse porro incidunt
-            delectus. Libero maxime repudiandae minus unde vel excepturi
-            asperiores eligendi praesentium, cum modi, rerum et. Ea fuga quo
-            est, ipsam nisi quas porro maxime, eaque sunt nostrum dicta
-            eligendi, dolores unde molestias cumque ullam consequuntur labore
-            voluptates architecto? Quam non repudiandae quibusdam, enim earum
-            alias. Magnam id ut porro hic qui, sint possimus exercitationem.
-            Iste neque quis at nisi magnam. Architecto a unde, quibusdam quod at
-            eligendi? Temporibus, voluptas quod veniam, maxime molestias
-            tempore, deserunt esse dignissimos facilis odio at sequi culpa. Non.
-          </p>
+          {console.log(data.description)}
+          {data.map(({ description, id }) => (
+            <p key={id}>{description}</p>
+          ))}
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk!
