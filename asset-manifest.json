@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/davidjortiz/static/css/main.1e07cf12.css",
-    "main.js": "/davidjortiz/static/js/main.ecb1962f.js",
+    "main.css": "/davidjortiz/static/css/main.63cbc44a.css",
+    "main.js": "/davidjortiz/static/js/main.088e9a50.js",
     "static/js/787.90a107df.chunk.js": "/davidjortiz/static/js/787.90a107df.chunk.js",
+    "static/media/Reunify.mov": "/davidjortiz/static/media/Reunify.cbad344eaa8f6cb98ade.mov",
     "static/media/ReunifyLanding.png": "/davidjortiz/static/media/ReunifyLanding.aa8e1092d849bbb70d4a.png",
     "static/media/LaSegunda.png": "/davidjortiz/static/media/LaSegunda.a64c7b9ae776c705bd92.png",
     "static/media/AboutMeCropped.png": "/davidjortiz/static/media/AboutMeCropped.b262d1d5db0ce76adca6.png",
@@ -16,12 +17,12 @@
     "static/media/davidortizresume.pdf": "/davidjortiz/static/media/davidortizresume.316667cb8a469accc33a.pdf",
     "static/media/noteTaker.png": "/davidjortiz/static/media/noteTaker.43aac785918fe6e0bb76.png",
     "index.html": "/davidjortiz/index.html",
-    "main.1e07cf12.css.map": "/davidjortiz/static/css/main.1e07cf12.css.map",
-    "main.ecb1962f.js.map": "/davidjortiz/static/js/main.ecb1962f.js.map",
+    "main.63cbc44a.css.map": "/davidjortiz/static/css/main.63cbc44a.css.map",
+    "main.088e9a50.js.map": "/davidjortiz/static/js/main.088e9a50.js.map",
     "787.90a107df.chunk.js.map": "/davidjortiz/static/js/787.90a107df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e07cf12.css",
-    "static/js/main.ecb1962f.js"
+    "static/css/main.63cbc44a.css",
+    "static/js/main.088e9a50.js"
   ]
 }
