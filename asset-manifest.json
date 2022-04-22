@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/davidjortiz/static/css/main.1e07cf12.css",
+    "main.js": "/davidjortiz/static/js/main.ecb1962f.js",
+    "static/js/787.90a107df.chunk.js": "/davidjortiz/static/js/787.90a107df.chunk.js",
+    "static/media/ReunifyLanding.png": "/davidjortiz/static/media/ReunifyLanding.aa8e1092d849bbb70d4a.png",
+    "static/media/LaSegunda.png": "/davidjortiz/static/media/LaSegunda.a64c7b9ae776c705bd92.png",
+    "static/media/AboutMeCropped.png": "/davidjortiz/static/media/AboutMeCropped.b262d1d5db0ce76adca6.png",
+    "static/media/EnzoApp.png": "/davidjortiz/static/media/EnzoApp.b52c79b85a78df144ee2.png",
+    "static/media/portfolio.png": "/davidjortiz/static/media/portfolio.4b818a0c8e38d6aa6955.png",
+    "static/media/uacTracker.png": "/davidjortiz/static/media/uacTracker.b3d221fd413361995939.png",
+    "static/media/profileManager.png": "/davidjortiz/static/media/profileManager.68743ab5c30769a6f695.png",
+    "static/media/SpellingGame.png": "/davidjortiz/static/media/SpellingGame.1a71f857ca8bd7a6aec6.png",
+    "static/media/fitnessTracker.png": "/davidjortiz/static/media/fitnessTracker.c0c9574c450261f6d033.png",
+    "static/media/RockPaperScissors.jpeg": "/davidjortiz/static/media/RockPaperScissors.eac17d9cdd80c2cf14ae.jpeg",
+    "static/media/davidortizresume.pdf": "/davidjortiz/static/media/davidortizresume.316667cb8a469accc33a.pdf",
+    "static/media/noteTaker.png": "/davidjortiz/static/media/noteTaker.43aac785918fe6e0bb76.png",
+    "index.html": "/davidjortiz/index.html",
+    "main.1e07cf12.css.map": "/davidjortiz/static/css/main.1e07cf12.css.map",
+    "main.ecb1962f.js.map": "/davidjortiz/static/js/main.ecb1962f.js.map",
+    "787.90a107df.chunk.js.map": "/davidjortiz/static/js/787.90a107df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e07cf12.css",
+    "static/js/main.ecb1962f.js"
+  ]
+}
