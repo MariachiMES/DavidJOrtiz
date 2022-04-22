@@ -38,9 +38,17 @@ export default function About() {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro amet
-            eius hic quibusdam veniam velit incidunt? Repudiandae rem velit
-            tenetur!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            tempora, soluta aliquam pariatur reiciendis esse porro incidunt
+            delectus. Libero maxime repudiandae minus unde vel excepturi
+            asperiores eligendi praesentium, cum modi, rerum et. Ea fuga quo
+            est, ipsam nisi quas porro maxime, eaque sunt nostrum dicta
+            eligendi, dolores unde molestias cumque ullam consequuntur labore
+            voluptates architecto? Quam non repudiandae quibusdam, enim earum
+            alias. Magnam id ut porro hic qui, sint possimus exercitationem.
+            Iste neque quis at nisi magnam. Architecto a unde, quibusdam quod at
+            eligendi? Temporibus, voluptas quod veniam, maxime molestias
+            tempore, deserunt esse dignissimos facilis odio at sequi culpa. Non.
           </p>
 
           <a href="#contact" className="btn btn-primary">
