@@ -71,17 +71,6 @@ export default function About() {
                 id={item.id}
               />
             ))}
-
-            {/* <article className="about__card">
-              <FaUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>3200+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>Stuff</small>
-            </article> */}
           </div>
           {console.log(data.description)}
           {data.map(({ description, id }) => (
