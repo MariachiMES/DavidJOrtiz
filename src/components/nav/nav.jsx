@@ -4,6 +4,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { AiOutlineVideoCamera } from "react-icons/ai";
 import { useState } from "react";
 
 export default function Nav() {
@@ -26,19 +27,20 @@ export default function Nav() {
           <AiOutlineUser />
         </a>
         <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
+          href="#videos"
+          onClick={() => setActiveNav("#videos")}
+          className={activeNav === "#videos" ? "active" : ""}
         >
-          <BiBook />
+          <AiOutlineVideoCamera />
         </a>
         <a
           href="#portfolio"
           onClick={() => setActiveNav("#portfolio")}
           className={activeNav === "#portfolio" ? "active" : ""}
         >
-          <AiOutlineHome />
+          <BiBook />
         </a>
+
         <a
           href="#contact"
           onClick={() => setActiveNav("#contact")}
