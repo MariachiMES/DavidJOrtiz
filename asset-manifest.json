@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/davidjortiz/static/css/main.63cbc44a.css",
-    "main.js": "/davidjortiz/static/js/main.088e9a50.js",
+    "main.js": "/davidjortiz/static/js/main.41c6db77.js",
     "static/js/787.90a107df.chunk.js": "/davidjortiz/static/js/787.90a107df.chunk.js",
     "static/media/Reunify.mov": "/davidjortiz/static/media/Reunify.cbad344eaa8f6cb98ade.mov",
     "static/media/ReunifyLanding.png": "/davidjortiz/static/media/ReunifyLanding.aa8e1092d849bbb70d4a.png",
@@ -13,16 +13,16 @@
     "static/media/profileManager.png": "/davidjortiz/static/media/profileManager.68743ab5c30769a6f695.png",
     "static/media/SpellingGame.png": "/davidjortiz/static/media/SpellingGame.1a71f857ca8bd7a6aec6.png",
     "static/media/fitnessTracker.png": "/davidjortiz/static/media/fitnessTracker.c0c9574c450261f6d033.png",
+    "static/media/davidortizresume.pdf": "/davidjortiz/static/media/davidortizresume.9f25ef00c8e97b204b4f.pdf",
     "static/media/RockPaperScissors.jpeg": "/davidjortiz/static/media/RockPaperScissors.eac17d9cdd80c2cf14ae.jpeg",
-    "static/media/davidortizresume.pdf": "/davidjortiz/static/media/davidortizresume.316667cb8a469accc33a.pdf",
     "static/media/noteTaker.png": "/davidjortiz/static/media/noteTaker.43aac785918fe6e0bb76.png",
     "index.html": "/davidjortiz/index.html",
     "main.63cbc44a.css.map": "/davidjortiz/static/css/main.63cbc44a.css.map",
-    "main.088e9a50.js.map": "/davidjortiz/static/js/main.088e9a50.js.map",
+    "main.41c6db77.js.map": "/davidjortiz/static/js/main.41c6db77.js.map",
     "787.90a107df.chunk.js.map": "/davidjortiz/static/js/787.90a107df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63cbc44a.css",
-    "static/js/main.088e9a50.js"
+    "static/js/main.41c6db77.js"
   ]
 }
