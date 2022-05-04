@@ -72,7 +72,6 @@ export default function About() {
               />
             ))}
           </div>
-          {console.log(data.description)}
           {data.map(({ description, id }) => (
             <p key={id}>{description}</p>
           ))}
